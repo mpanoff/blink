@@ -5297,6 +5297,7 @@
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A2H2CL32AG;
 				ENABLE_BITCODE = NO;
+				ENABLE_DEBUG_DYLIB = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -5601,8 +5602,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
 			};
 		};
 		D2A6398728CFA0B90066FD18 /* XCRemoteSwiftPackageReference "SwiftCBOR" */ = {
